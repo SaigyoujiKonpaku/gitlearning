@@ -15,3 +15,6 @@ git checkout -- filename 将文件工作区的修改撤销
 git reset HEAD filename 将添加到satage的修改取消，重回工作区
 
 git rm filename 删除一个文件
+
+git clone url(ssh/https) 将远程仓库直接克隆到本地
+
