@@ -1,0 +1,6 @@
+使用git init 时，git将当前目录初始化为仓库，这个目录就是工作区
+同时git还会生成.git隐藏文件夹，这个是git的版本库，在版本库中有一个stage(暂存区)
+创建的第一个分支master，已经指向master的HEAD
+
+当修改工作区的文件后，使用git add命令是将修改的文件放在暂存区
+使用git commit 命令才会将stage中的内容提交到当前分支
