@@ -1,2 +1,6 @@
-git remote add origin git@    与远程仓库建立关联
+git remote add origin url(https/ssh)    与远程仓库建立关联
 git push  将本地仓库推送到远程仓库
+
+tip:当与远程仓库建立关联后，使用git push可能会报 Updates were rejected because the remote contains work that you do
+此时，先用git fetch 拉去远程仓库的文件，之后git pull origin master -–allow-unrelated-histories合并两个仓库的历史。
+之后就能正常push了。
