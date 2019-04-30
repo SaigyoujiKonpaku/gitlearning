@@ -10,3 +10,6 @@ git log 查看提交日志
 git reflog 查看命令历史
 git reset --hard commit_id 回到commt_id时的版本库
 HEAD 指向当前版本  HEAD^指向上个版本,以此类推，HEAD~number 指向前number个版本
+
+git checkout -- filename 将文件工作区的修改撤销
+git reset HEAD filename 将添加到satage的修改取消，重回工作区
