@@ -1,1 +1,2 @@
 git remote add origin git@    与远程仓库建立关联
+git push  将本地仓库推送到远程仓库
