@@ -13,3 +13,5 @@ HEAD 指向当前版本  HEAD^指向上个版本,以此类推，HEAD~number 指�
 
 git checkout -- filename 将文件工作区的修改撤销
 git reset HEAD filename 将添加到satage的修改取消，重回工作区
+
+git rm filename 删除一个文件

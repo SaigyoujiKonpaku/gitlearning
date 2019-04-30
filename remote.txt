@@ -1,0 +1,1 @@
+git remote add origin git@    与远程仓库建立关联
