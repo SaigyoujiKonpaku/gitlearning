@@ -29,3 +29,4 @@
 git 默认使用**Fast Forward**模式合并分区,这样会丢失分区信息  
 在合并分支时使用 --no-off 参数禁用**Fasr Forward**,在提交时会创建新的commit，就可以看到分支信息  
 
+~~--no-off命令测试 ~~
